@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>game</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="navbar">
+          <h2>Number gassing game</h2>
+           <p>try and gusssing a random number between 1 and 100</p>
+           <p>you have 10 attempts to gusses the right number</p>
+           <form class="form">
+               <label2 for="guessField" id="guess">Guess a number</label><br>
+               <input type="text" id="GuessField" class="guessField"><br>
+               <input type="submit" id="subt" value="submit guess" class="guessSubmit">
+
+
+           </form>
+           <div class="resultParas">
+               <p>previous guess: <span class="guesses"></span></p>
+               <p>gueses Remaning: <span class="lastresult"></span></p>
+               <p class="LowOrhi"></p>
+           </div>
+
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,body{
+     height: 100%;
+     width: 100%;
+}
+.navbar{
+     height: 60%;
+     width: 40%;
+     background: grey;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50% , -50%);
+     padding: 2%;
+     color: white;
+     text-align: center;
+}
+h2{
+     font-size: 36px;
+     padding: 5px 0 5px 0;
+}
+p{
+     font-size: 20px;
+     text-transform: capitalize;
+}
+#guess{
+     font-size: 36px;
+     padding-top: 10px;
+}
+#GuessField{
+     padding: 10px;
+     border-radius: 10px;
+     border: none;
+}
+#subt{
+     background: black;
+     padding: 10px;
+     color: white;
+     margin-top: 35
+     px;
+     border-radius: 10px;
+     border: none;
+}
